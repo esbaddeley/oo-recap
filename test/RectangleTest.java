@@ -14,20 +14,21 @@ public class RectangleTest {
 
     @Test
     public void shouldReturnTheAreaOfARectangleAsTen() throws Exception {
-
-        Assert.assertEquals(10, Rectangle.returnArea(5, 2));
+        Rectangle rectangle = new Rectangle(5, 2);
+        Assert.assertEquals(10, rectangle.returnArea());
     }
 
     @Test
     public void shouldReturnTheAreaOfARectangleAsTwenty() throws Exception {
-
-        Assert.assertEquals(20, Rectangle.returnArea(5, 4));
+        Rectangle rectangle = new Rectangle(5, 4);
+        Assert.assertEquals(20, rectangle.returnArea());
 
     }
 
     @Test
     public void shouldReturnTheAreaOfRectangleAsThirty() throws Exception {
-        Assert.assertEquals(30, Rectangle.returnArea(6, 5));
+        Rectangle rectangle = new Rectangle(6, 5);
+        Assert.assertEquals(30, rectangle.returnArea());
 
     }
 }
