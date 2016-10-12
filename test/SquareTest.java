@@ -26,11 +26,11 @@ public class SquareTest {
     public void shouldThrowExceptionIfNotSquare() throws Exception {
         try {
             Square square = new Square(2, 5);
+            assertTrue(false);
         }
         catch (NotSquareException notSquare){
             assertEquals("Not a Square", notSquare.getMessage());
         }
-
     }
 
 
