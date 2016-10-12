@@ -33,10 +33,10 @@ public class SquareTest {
 
     }
 
-    @Test
-    public void createsAValidSquare() throws Exception {
-        Square square = new Square(2, 2);
-        assertTrue(square.isSquare(2, 2));
-
-    }
+//    @Test
+//    public void createsAValidSquare() throws Exception {
+//        Square square = new Square(2, 2);
+//        assertTrue(square.isSquare(2, 2));
+//
+//    }
 }
