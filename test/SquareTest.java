@@ -16,7 +16,7 @@ public class SquareTest {
     }
 
     @Test
-    public void shouldReturnAreaOfASqureAs6() throws Exception {
+    public void shouldReturnAreaOfASquareAs6() throws Exception {
         Square square = new Square(3, 3);
         assertEquals(9, square.returnArea());
 
@@ -33,10 +33,5 @@ public class SquareTest {
 
     }
 
-//    @Test
-//    public void createsAValidSquare() throws Exception {
-//        Square square = new Square(2, 2);
-//        assertTrue(square.isSquare(2, 2));
-//
-//    }
+
 }

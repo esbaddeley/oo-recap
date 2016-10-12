@@ -10,8 +10,7 @@ public class Circle {
         this.radius = radius;
     }
 
-    public int returnArea() {
-
-        return 0;
+    public double returnArea() {
+        return (Math.PI * (radius * radius));
     }
 }
