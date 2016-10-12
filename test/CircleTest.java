@@ -10,8 +10,8 @@ public class CircleTest {
 
     @Test
     public void shouldReturnArea() throws Exception {
-        Circle circle = new Circle();
-        Assert.assertEquals(0, circle.returnArea());
+        Circle circle = new Circle(2);
+        Assert.assertEquals((Math.PI*4), circle.returnArea(), 0.01);
 
     }
 }
